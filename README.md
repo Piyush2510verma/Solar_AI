@@ -1,4 +1,4 @@
-# Solar_AI
+# Solar AI Assistant
 
 
 An AI-powered chatbot that provides consulting services for the solar energy industry. The chatbot uses the Google Generative AI model and answers questions related to solar panel technology, installation processes, maintenance, cost analysis, industry regulations, and market trends.
@@ -37,6 +37,7 @@ pip install -r requirements.txt
 ```
 
 **Set Up the .env File**
+
 Create a .env file in the root of the project and add your Google API Key:
 ```bash
 GOOGLE_API_KEY=your_google_api_key_here
@@ -47,7 +48,8 @@ Run the Streamlit app locally:
 streamlit run app.py
 ```
 
-**##2. Streamlit Application**
+**2. Streamlit Application**
+
 The main frontend of the application is built using Streamlit. It collects user inputs, sends them to the backend serverless function, and displays the AI-generated response. The app's main functions include:
 
 Taking input from the user via a text box.
