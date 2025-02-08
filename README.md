@@ -21,12 +21,12 @@ An AI-powered chatbot that provides consulting services for the solar energy ind
 
 ### Steps to Run the Project Locally
 
-##Clone the repository##:
+**Clone the repository**:
    ```bash
    git clone https://github.com/Piyush2510verma/SolarAI.git
    cd SolarAI
 ```
-##Install Python Dependencies
+**Install Python Dependencies**
 Create a virtual environment and install the necessary dependencies for the Python backend:
 
 ```bash
