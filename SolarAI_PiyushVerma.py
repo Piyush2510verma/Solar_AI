@@ -71,7 +71,7 @@ Your responses should strictly focus on these topics and should be tailored to t
             {
                 "role": "model",
                 "parts": [
-                    "Understood. I'm ready to answer your solar energy questions. Please ask me anything related to solar panel technology, installation processes, maintenance requirements, cost & ROI analysis, industry regulations, or market trends. I will tailor my response to your level of technical expertise."
+                    "Hello! How can I assist you today?"
                 ],
             },
         ]
