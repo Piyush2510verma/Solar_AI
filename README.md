@@ -47,7 +47,7 @@ Run the Streamlit app locally:
 streamlit run app.py
 ```
 
-**2. Streamlit Application (SolarAI_PiyushVerma.py)**
+**2. Streamlit Application**
 The main frontend of the application is built using Streamlit. It collects user inputs, sends them to the backend serverless function, and displays the AI-generated response. The app's main functions include:
 
 Taking input from the user via a text box.
@@ -56,6 +56,7 @@ Displaying the chatbot response in the UI.
 
 
 **3. Example Use Cases**:
+
 Use Case 1: General Inquiry
 Scenario: A user asks about solar panel technology.
 
@@ -75,6 +76,7 @@ AI Response: The chatbot explains routine cleaning, inspections, and common trou
 
 
 **4. Future Improvement Suggestions**:
+
 4.1 Enhanced User Experience
 Natural Language Understanding: Improve the chatbot’s ability to understand and interpret complex or vague queries related to solar energy.
 Multilingual Support: Add support for multiple languages to reach a wider audience.
