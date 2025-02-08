@@ -15,7 +15,7 @@ An AI-powered chatbot that provides consulting services for the solar energy ind
 
 ## Setup and Installation
 
-**1. Prerequisites**
+**##1. Prerequisites**
 - Python 3.8 or later
 - pip (Python package installer)
 
@@ -47,7 +47,7 @@ Run the Streamlit app locally:
 streamlit run app.py
 ```
 
-**2. Streamlit Application**
+**##2. Streamlit Application**
 The main frontend of the application is built using Streamlit. It collects user inputs, sends them to the backend serverless function, and displays the AI-generated response. The app's main functions include:
 
 Taking input from the user via a text box.
@@ -59,17 +59,16 @@ Displaying the chatbot response in the UI.
 
 Use Case 1: General Inquiry
 Scenario: A user asks about solar panel technology.
-
 User Input: "How do solar panels work?"
 AI Response: The chatbot explains the photovoltaic process and how solar panels generate electricity.
+
 Use Case 2: Cost Analysis
 Scenario: A user inquires about the return on investment for installing solar panels.
-
 User Input: "What is the ROI for solar panel installation?"
 AI Response: The chatbot provides an overview of ROI, factoring in costs, savings, and government incentives.
+
 Use Case 3: Maintenance Tips
 Scenario: A user asks for maintenance advice for their solar panels.
-
 User Input: "How do I maintain my solar panels?"
 AI Response: The chatbot explains routine cleaning, inspections, and common troubleshooting techniques.
 
@@ -80,9 +79,11 @@ AI Response: The chatbot explains routine cleaning, inspections, and common trou
 4.1 Enhanced User Experience
 Natural Language Understanding: Improve the chatbot’s ability to understand and interpret complex or vague queries related to solar energy.
 Multilingual Support: Add support for multiple languages to reach a wider audience.
+
 4.2 Expand Knowledge Base
 Integration with Real-Time Data: Integrate real-time data for solar panel efficiency, weather conditions, or local incentives to provide more dynamic responses.
 User Customization: Allow users to input their location to get location-specific information about solar panel installations, policies, and savings.
+
 4.3 Broader API Integration
 Additional Solar APIs: Integrate other APIs (e.g., solar irradiance data, solar calculators) to provide more comprehensive insights.
 Data Visualization: Provide visualizations (charts, graphs) of energy savings, ROI, etc., to enhance understanding.
