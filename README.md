@@ -15,7 +15,7 @@ An AI-powered chatbot that provides consulting services for the solar energy ind
 
 ## Setup and Installation
 
-###1. Prerequisites
+**1. Prerequisites**
 - Python 3.8 or later
 - pip (Python package installer)
 
@@ -36,18 +36,18 @@ venv\Scripts\activate  # For Windows
 pip install -r requirements.txt
 ```
 
-##Set Up the .env File
+**Set Up the .env File**
 Create a .env file in the root of the project and add your Google API Key:
 ```bash
 GOOGLE_API_KEY=your_google_api_key_here
 ```
-##Run the Application Locally
+**Run the Application Locally**
 Run the Streamlit app locally:
 ```bash
 streamlit run app.py
 ```
 
-##2. Streamlit Application (SolarAI_PiyushVerma.py)
+**2. Streamlit Application (SolarAI_PiyushVerma.py)**
 The main frontend of the application is built using Streamlit. It collects user inputs, sends them to the backend serverless function, and displays the AI-generated response. The app's main functions include:
 
 Taking input from the user via a text box.
@@ -55,7 +55,7 @@ Sending the input to the backend serverless function.
 Displaying the chatbot response in the UI.
 
 
-##3. Example Use Cases
+**3. Example Use Cases**
 Use Case 1: General Inquiry
 Scenario: A user asks about solar panel technology.
 
@@ -74,7 +74,7 @@ AI Response: The chatbot explains routine cleaning, inspections, and common trou
 
 
 
-##4. Future Improvement Suggestions
+**4. Future Improvement Suggestions**
 4.1 Enhanced User Experience
 Natural Language Understanding: Improve the chatbot’s ability to understand and interpret complex or vague queries related to solar energy.
 Multilingual Support: Add support for multiple languages to reach a wider audience.
@@ -85,5 +85,5 @@ User Customization: Allow users to input their location to get location-specific
 Additional Solar APIs: Integrate other APIs (e.g., solar irradiance data, solar calculators) to provide more comprehensive insights.
 Data Visualization: Provide visualizations (charts, graphs) of energy savings, ROI, etc., to enhance understanding.
 
-Conclusion
+**Conclusion**
 The Solar Energy AI Chatbot provides an intelligent and interactive platform for users to access reliable information on solar energy. Through its use of Google's Generative AI API, the app delivers personalized and accurate responses tailored to users' needs. Future improvements can focus on expanding the knowledge base and improving the overall user experience.
